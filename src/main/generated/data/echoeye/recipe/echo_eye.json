@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "minecraft:echo_shard"
+    },
+    "o": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "eee",
+    "eoe",
+    "eee"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoeye:echo_eye"
+  }
+}

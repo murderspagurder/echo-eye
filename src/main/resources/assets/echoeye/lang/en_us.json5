@@ -1,0 +1,14 @@
+{
+  item: {
+    echoeye: {
+      echo_eye: 'Echo Eye',
+      echo_deepslate: 'Echo Deepslate',
+      recovery_eye: 'Recovery Eye'
+    }
+  },
+  block: {
+    echoeye: {
+      echo_deepslate: 'Echo Deepslate'
+    }
+  }
+}

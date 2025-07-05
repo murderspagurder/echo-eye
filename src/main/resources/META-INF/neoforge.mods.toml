@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "MIT"
+
+[[mods]]
+modId = "echoeye"
+displayName = "Echo Eye"
+version = "${version}"
+displayURL = ""
+logoFile = "assets/icon.png"
+authors = "murder_spagurder"
+description = '''One-way Transports to Spawn in a Pinch'''
+
+[[mixins]]
+config = "echoeye.mixins.json"
+
+[[dependencies.echoeye]]
+modId = "neoforge"
+type = "required"
+versionRange = "[1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.echoeye]]
+modId = "minecraft"
+type = "required"

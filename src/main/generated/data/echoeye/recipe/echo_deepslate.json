@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "d": [
+      {
+        "item": "minecraft:deepslate"
+      },
+      {
+        "item": "minecraft:cobbled_deepslate"
+      }
+    ],
+    "e": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    " e ",
+    "ede",
+    " e "
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoeye:echo_deepslate"
+  }
+}

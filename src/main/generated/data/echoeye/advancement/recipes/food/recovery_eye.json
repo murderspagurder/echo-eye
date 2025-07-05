@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_echo_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "echoeye:echo_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "echoeye:recovery_eye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_echo_eye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "echoeye:recovery_eye"
+    ]
+  }
+}

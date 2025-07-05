@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "echoeye:block/echo_deepslate"
+    }
+  }
+}

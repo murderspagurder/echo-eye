@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "echoeye",
+  "name": "Echo Eye",
+  "version": "${version}",
+  "authors": ["murder_spagurder"],
+  "contact": {
+    "sources": "",
+    "issues": ""
+  },
+  "description": "One-way Transports to Spawn in a Pinch",
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "echoeye.accesswidener",
+  "entrypoints": {
+    "main": [
+      "dev.spagurder.echoeye.fabric.FabricEntrypoint"
+    ],
+    "client": [
+      "dev.spagurder.echoeye.fabric.FabricClientEntrypoint"
+    ],
+    "fabric-datagen": [
+      "dev.spagurder.echoeye.fabric.datagen.FabricDataGeneratorEntrypoint"
+    ]
+  },
+  "mixins": [
+    "echoeye.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  }
+}
